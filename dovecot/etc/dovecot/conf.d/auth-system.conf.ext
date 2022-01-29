@@ -50,7 +50,7 @@ userdb {
   # <doc/wiki/AuthDatabase.Passwd.txt>
   driver = passwd
   # [blocking=no]
-  #args = 
+  args = uid=vmail gid=vmail
 
   # Override fields from passwd
   override_fields = user=%n domain=ipa.somberlain.eu
