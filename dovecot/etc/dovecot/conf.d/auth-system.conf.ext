@@ -53,7 +53,7 @@ userdb {
   #args = 
 
   # Override fields from passwd
-  #override_fields = home=/home/virtual/%u
+  override_fields = user=%n domain=ipa.somberlain.eu
 }
 
 # Static settings generated from template <doc/wiki/UserDatabase.Static.txt>
